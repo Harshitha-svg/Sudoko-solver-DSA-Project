@@ -15,4 +15,17 @@ The solver uses **recursive backtracking** to fill in numbers from 1 to 9 in eac
 - The user enters 81 integers (space-separated or line-by-line)
 - `0` represents an empty cell
 
+📤 Output
+- If a solution exists, prints the completed Sudoku grid
+- If no solution exists, it notifies the user
+
+🚀 Getting Started
+
+🛠️ Requirements
+- A C++ compiler like `g++`
+
+ ⚙️ Compilation
+```bash
+g++ sudoku_solver.cpp -o sudoku_solver
+
 
